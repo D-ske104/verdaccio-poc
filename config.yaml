@@ -15,7 +15,7 @@ packages:
 middlewares:
   block-recent:
     enabled: true
-    limit_days: 7
+    limit_days: 21
 
 uplinks:
   npmjs:
