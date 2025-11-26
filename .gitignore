@@ -1,3 +1,14 @@
 node_modules/
+storage/
 dist/
 storage/
+
+# Local config containing tokens
+.npmrc
+
+# Build outputs for plugin
+plugins/verdaccio-block-recent/dist/
+
+# Logs
+npm-debug.log*
+*.log

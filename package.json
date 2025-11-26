@@ -1,5 +1,5 @@
 {
-  "name": "verdaccio-poc",
+  "name": "@d-ske104/verdaccio-poc",
   "version": "1.0.0",
   "type": "module",
   "keywords": [],
@@ -8,6 +8,12 @@
     "email": "me@kusatake.dev"
   },
   "license": "NO LICENSE",
+  "bin": {
+    "verdaccio-poc": "scripts/start.js"
+  },
+  "scripts": {
+    "prepare": "npm --prefix plugins/verdaccio-block-recent run build"
+  },
   "dependencies": {
     "verdaccio": "^6.2.2"
   }
