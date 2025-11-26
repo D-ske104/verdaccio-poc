@@ -15,6 +15,7 @@
     "prepare": "npm --prefix plugins/verdaccio-block-recent run build"
   },
   "dependencies": {
+    "@d-ske104/verdaccio-poc": "^1.0.4",
     "verdaccio": "^6.2.2"
   },
   "publishConfig": {
