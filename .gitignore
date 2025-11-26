@@ -6,8 +6,7 @@ storage/
 # Local config containing tokens
 .npmrc
 
-# Build outputs for plugin
-plugins/verdaccio-block-recent/dist/
+# (GitHub Packagesに配布するため plugin の dist は含める)
 
 # Logs
 npm-debug.log*

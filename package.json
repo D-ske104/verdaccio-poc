@@ -9,7 +9,7 @@
   },
   "license": "NO LICENSE",
   "bin": {
-    "verdaccio-poc": "scripts/start.js"
+    "verdaccio-poc": "scripts/start.cjs"
   },
   "scripts": {
     "prepare": "npm --prefix plugins/verdaccio-block-recent run build"
@@ -19,5 +19,11 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
-  }
+  },
+  "files": [
+    "config.yaml",
+    "scripts/start.cjs",
+    "plugins/verdaccio-block-recent/package.json",
+    "plugins/verdaccio-block-recent/dist/index.mjs"
+  ]
 }
