@@ -12,7 +12,9 @@
     "verdaccio-poc": "scripts/start.cjs"
   },
   "scripts": {
-    "prepare": "npm --prefix plugins/verdaccio-block-recent run build"
+    "build:plugin": "npm --prefix plugins/verdaccio-block-recent run build",
+    "prepare": "npm --prefix plugins/verdaccio-block-recent run build",
+    "start": "node scripts/start.cjs"
   },
   "dependencies": {
     "verdaccio": "^6.2.2"
