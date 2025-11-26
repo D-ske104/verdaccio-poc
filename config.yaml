@@ -1,0 +1,22 @@
+storage: ./storage
+plugins: ./plugins
+
+packages:
+  '@*/*':
+    access: $all
+    publish: $all
+    proxy: npmjs
+
+  '**':
+    access: $all
+    publish: $all
+    proxy: npmjs
+
+middlewares:
+  block-recent:
+    enabled: true
+    limit_days: 7
+
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/

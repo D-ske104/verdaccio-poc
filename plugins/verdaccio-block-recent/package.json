@@ -1,0 +1,19 @@
+{
+  "name": "verdaccio-block-recent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "verdaccio": {
+    "kind": "middleware"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@verdaccio/types": "^10.8.0",
+    "tsdown": "^0.16.7",
+    "typescript": "^5.9.3"
+  }
+}

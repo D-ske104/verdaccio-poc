@@ -1,0 +1,14 @@
+{
+  "name": "verdaccio-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [],
+  "author": {
+    "name": "KUSATAKE Daisuke",
+    "email": "me@kusatake.dev"
+  },
+  "license": "NO LICENSE",
+  "dependencies": {
+    "verdaccio": "^6.2.2"
+  }
+}
